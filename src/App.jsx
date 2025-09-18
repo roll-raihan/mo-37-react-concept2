@@ -4,7 +4,7 @@ import './App.css'
 import { Suspense } from 'react';
 
 //cls-6
-const fetchUser = fetch("https://jsonplaceholder.typicode.com/")
+const fetchUser = fetch("https://jsonplaceholder.typicode.com/posts")
   .then(res => res.json())
 
 function App() {

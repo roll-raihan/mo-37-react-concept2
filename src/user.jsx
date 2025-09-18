@@ -10,7 +10,7 @@ export default function User({ fetchUser }) {
 
     const user = use(fetchUser);
 
-    console.log(user);
+    // console.log(user);
 
     const styleSheet = {
         border: '2px solid gold',
